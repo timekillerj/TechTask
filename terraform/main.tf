@@ -13,7 +13,7 @@ data "aws_availability_zones" "available" {
 
 locals {
   cluster_name   = "harness-task-eks"
-  instance_type  = "t3.small"
+  instance_type  = "t3.large"
 }
 
 # Create the VPC
