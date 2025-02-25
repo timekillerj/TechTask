@@ -26,7 +26,7 @@ module "delegate" {
   deploy_mode      = "Kubernetes"
   namespace        = "harness-delegate-ng"
   manager_endpoint = var.harness_manager_endpoint
-  delegate_image   = "harness/delegate:yy.mm.verno"
+  delegate_image   = "harness/delegate:24.12.84710"
   replicas         = 1
   upgrader_enabled = false
 
