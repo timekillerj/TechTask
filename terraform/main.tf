@@ -12,7 +12,7 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  cluster_name   = "harness-task-eks"
+  cluster_name   = "harness-techtask-eks"
   instance_type  = "t3.large"
 }
 
