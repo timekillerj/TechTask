@@ -22,7 +22,7 @@ module "delegate" {
 
   account_id       = var.harness_account_id
   delegate_token   = var.harness_delegate_token
-  delegate_name    = "TechTaskDel"
+  delegate_name    = "techtaskdel"
   deploy_mode      = "Kubernetes"
   namespace        = "harness-delegate-ng"
   manager_endpoint = var.harness_manager_endpoint
