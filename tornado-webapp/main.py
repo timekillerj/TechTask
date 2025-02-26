@@ -3,7 +3,6 @@ import logging
 import tornado.ioloop
 import tornado.web
 from tornado.escape import json_encode
-from bson import ObjectId
 import datetime
 
 logging.basicConfig(level=logging.DEBUG)
