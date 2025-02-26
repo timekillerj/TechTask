@@ -1,12 +1,7 @@
 namespace: default
 
-mongoSecret:
-  mongoHost: ""
-  mongoUser: ""
-  mongoPass: ""
-
 image:
-  repository: "356885506315.dkr.ecr.us-east-1.amazonaws.com/tornado-webapp"
+  repository: "timekillerj/my-tornado-webapp"
   tag: "latest"
   pullPolicy: IfNotPresent
 
