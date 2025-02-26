@@ -20,21 +20,5 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         ports:
         - containerPort: 8888
-        env:
-        - name: MONGO_HOST
-          valueFrom:
-            secretKeyRef:
-              name: mongo-secret
-              key: MONGO_HOST
-        - name: MONGO_USER
-          valueFrom:
-            secretKeyRef:
-              name: mongo-secret
-              key: MONGO_USER
-        - name: MONGO_PASS
-          valueFrom:
-            secretKeyRef:
-              name: mongo-secret
-              key: MONGO_PASS
         securityContext:
-          privileged: true
+          privileged: false
