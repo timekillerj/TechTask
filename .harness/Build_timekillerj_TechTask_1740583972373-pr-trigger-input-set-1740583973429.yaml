@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_timekillerj_TechTask_1740583972373-pr-trigger-input-set
+  identifier: Build_timekillerj_TechTask_1740583972373prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_timekillerj_TechTask_1740583972373
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
