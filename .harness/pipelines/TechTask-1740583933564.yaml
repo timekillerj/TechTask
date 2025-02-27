@@ -27,7 +27,7 @@ pipeline:
                     connectorRef: DockerHub
                     repo: timekillerj/my-tornado-webapp
                     tags:
-                      - latest
+                      - <+pipeline.sequenceId>
                     dockerfile: tornado-webapp/Dockerfile
                     context: tornado-webapp
           platform:
